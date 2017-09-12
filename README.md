@@ -10,3 +10,38 @@
 im = cv2.imread('t3.jpg', cv2.IMREAD_COLOR)
 plt.imshow(im)
 ```
+
+## 灰度化( transform gray scale )<br>
+```sh
+retval, im2 = cv2.threshold(im, 115, 255, cv2.THRESH_BINARY_INV)
+plt.imshow(im2)
+```
+## 刪除雜點( del miscellaneous points <br>
+```sh
+im3 = del_mis_pt_by_threshold(im2)  )
+plt.imshow(im3)
+```
+## 雜點去除後，我們必須對剩下的影像做強化<br>
+```sh
+im4 = cv2.dilate(im3, (2, 2), iterations=1)
+plt.imshow(im4)
+# save figure
+plt.savefig('del_mix_pt.png')
+```
+## 以下是處理完後的 image
+![del_mix_pt](https://github.com/f496328mm/Verification_code_image/blob/master/del_mix_pt.png)
+#-------------------------------------------------
+# split number
+
+x_split_start,x_split_end = catch_axis_start_and_end(im4,axis='x')
+
+# for example
+img1 = my_plt_fun(x_split_start,x_split_end,0)
+plt.imshow(img1)
+
+# split number and save figure
+for i in range(len(x_split_start)):
+    my_plt_fun(x_split_start,x_split_end,i)
+
+
+
