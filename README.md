@@ -16,7 +16,7 @@ plt.imshow(im)
 retval, im2 = cv2.threshold(im, 115, 255, cv2.THRESH_BINARY_INV)
 plt.imshow(im2)
 ```
-## 刪除雜點( del miscellaneous points <br>
+## 刪除雜點( del miscellaneous points ) <br>
 ```sh
 im3 = del_mis_pt_by_threshold(im2)  )
 plt.imshow(im3)
