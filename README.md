@@ -29,7 +29,7 @@ plt.imshow(im4)
 plt.savefig('del_mix_pt.png')
 ```
  以下是處理完後的 image<br>
-![del_mix_pt](https://github.com/f496328mm/Verification_code_image/blob/master/del_mix_pt.png)
+<img src="https://github.com/f496328mm/Verification_code_image/blob/master/del_mix_pt.png" width="30%" height="30%">
 
 ## 接下來將分割數字，分割有助於 DL 預測 <br>
 ```sh
@@ -45,6 +45,7 @@ plt.imshow(img1)
 <img src="https://github.com/f496328mm/Verification_code_image/blob/master/split_image_2.png" width="30%" height="30%">
 <img src="https://github.com/f496328mm/Verification_code_image/blob/master/split_image_3.png" width="30%" height="30%">
 <img src="https://github.com/f496328mm/Verification_code_image/blob/master/split_image_4.png" width="30%" height="30%">
+
 ## 儲存<br>
 ```sh
 for i in range(len(x_split_start)):
