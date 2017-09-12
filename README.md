@@ -1,5 +1,4 @@
-# Verification_code_image
-# 驗證碼影像處理
+# 驗證碼影像處理 ( Verification_code_image )
 
 主要是將圖片，灰度化、去雜點、切割，再搭配DL，將有助於提高準確率
 
