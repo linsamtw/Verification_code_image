@@ -31,7 +31,7 @@ plt.savefig('del_mix_pt.png')
  以下是處理完後的 image<br>
 ![del_mix_pt](https://github.com/f496328mm/Verification_code_image/blob/master/del_mix_pt.png)
 
-## 接下來將分割數字，分割有助於進行 DL 預測 <br>
+## 接下來將分割數字，分割有助於 DL 預測 <br>
 ```sh
 x_split_start,x_split_end = catch_axis_start_and_end(im4,axis='x')
 ```
