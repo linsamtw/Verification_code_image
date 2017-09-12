@@ -28,7 +28,7 @@ plt.imshow(im4)
 # save figure
 plt.savefig('del_mix_pt.png')
 ```
-## 以下是處理完後的 image<br><br>
+ 以下是處理完後的 image<br><br>
 ![del_mix_pt](https://github.com/f496328mm/Verification_code_image/blob/master/del_mix_pt.png)
 
 ## 接下來將分割數字，分割有助於進行 DL 預測 <br>
