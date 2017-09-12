@@ -40,6 +40,11 @@ x_split_start,x_split_end = catch_axis_start_and_end(im4,axis='x')
 img1 = my_plt_fun(x_split_start,x_split_end,0)
 plt.imshow(img1)
 ```
+![split_image_0](https://github.com/f496328mm/Verification_code_image/blob/master/split_image_0.png)
+![split_image_1](https://github.com/f496328mm/Verification_code_image/blob/master/split_image_1.png)
+![split_image_2](https://github.com/f496328mm/Verification_code_image/blob/master/split_image_2.png)
+![split_image_3](https://github.com/f496328mm/Verification_code_image/blob/master/split_image_3.png)
+![split_image_4](https://github.com/f496328mm/Verification_code_image/blob/master/split_image_4.png)
 ## 儲存<br>
 ```sh
 for i in range(len(x_split_start)):
