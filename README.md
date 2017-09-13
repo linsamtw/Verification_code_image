@@ -35,6 +35,16 @@ plt.savefig('del_mix_pt.png')
 ```sh
 x_split_start,x_split_end = catch_axis_start_and_end(im4,axis='x')
 ```
+## 分割方法如下<br>
+<img src="https://github.com/f496328mm/Verification_code_image/blob/master/del_mix_pt.png" width="30%" height="30%">
+用 x 軸去切，只要是"白色"，就存入x座標，以上就會得到一串數列<br>
+舉例來說，11,12,13...27,63,64...95,129,130...，<br>
+可以看出來，11~27 是一個數字，63~95 是一個數字，這樣就切出數字了<br>
+
+<img src="https://github.com/f496328mm/Verification_code_image/blob/master/tem.png" width="30%" height="30%">
+
+如上圖之後， y 軸的切法也一樣
+
 ## 分割完後的圖片<br>
 ```sh
 img1 = my_plt_fun(x_split_start,x_split_end,0)
